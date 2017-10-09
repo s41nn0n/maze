@@ -12,6 +12,7 @@ public class SignPost : MonoBehaviour
 
 	// place this at the top of your file
 	// then call this to restart game
+	//http://answers.unity3d.com/questions/46918/reload-scene-when-dead.html
 	void hardRestartGame() {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}

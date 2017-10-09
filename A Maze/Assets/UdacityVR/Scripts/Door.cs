@@ -20,6 +20,7 @@ public class Door : MonoBehaviour
     void Update() {
         // If the door is opening and it is not fully raised
             // Animate the door raising up
+    	//https://docs.unity3d.com/ScriptReference/Transform-localScale.html
 		var transform = gameObject.GetComponent<Transform>();
     	if (getDoorState()) {
     		if (transform.localPosition.y < 8) {
