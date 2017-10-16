@@ -31,7 +31,7 @@ public class Key : MonoBehaviour
     }
 
     IEnumerator Wait () {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(1.2f);
         Destroy(gameObject);
     }
 
